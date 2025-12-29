@@ -10,6 +10,7 @@ import io.cucumber.testng.CucumberOptions;
 		glue= "stepDefinitions",
 		plugin= {"html:target/cucumber.html",
 				"json:target/cucumber.json",
+				"junit:target/cucumber-junit.xml",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 				},
 		monochrome=true

@@ -11,6 +11,7 @@ import io.cucumber.testng.CucumberOptions;
 		tags = "@PlaceOrder or @OffersPage",
 		plugin= {"html:target/cucumber.html",
 				"json:target/cucumber.json",
+				"junit:target/cucumber-junit.xml",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"rerun:target/failed_scenarios.txt"
 				},
